@@ -1,15 +1,16 @@
 package modelos;
 
 import interfaces.Acciones;
+import interfaces.Informacion;
 import interfaces.Movimientos;
 
-public class Vehiculo implements Movimientos, Acciones{
+public class Vehiculo implements Movimientos, Acciones,Informacion{
 
 	private String marca;
 	
 	
 	
-	public Vehiculo() {}
+
 
 	public Vehiculo(String marca) {
 		super();
@@ -39,6 +40,11 @@ public class Vehiculo implements Movimientos, Acciones{
 		System.out.println(" el vehiculo Frena");
 		
 	}
+	@Override
+	public void pintatDatos() {
+		System.out.println(" El vehiculo es de la marca "+this.getMarca());
+		
+	}
 
 	public String getMarca() {
 		return marca;
@@ -47,6 +53,8 @@ public class Vehiculo implements Movimientos, Acciones{
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
+
+	
 	
 	
 
