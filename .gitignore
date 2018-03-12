@@ -1,3 +1,13 @@
 /.metadata/
 
 RemoteSystemsTempFiles/\.project
+
+ParImpar/\.classpath
+
+ParImpar/\.project
+
+\.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/
+
+*.fdt
+
+ParImpar/\.settings/org\.eclipse\.jdt\.core\.prefs
