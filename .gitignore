@@ -11,3 +11,8 @@ ParImpar/\.project
 *.fdt
 
 ParImpar/\.settings/org\.eclipse\.jdt\.core\.prefs
+/.recommenders/
+
+IsMayuscula/\.classpath
+
+IsMayuscula/\.settings/org\.eclipse\.jdt\.core\.prefs
