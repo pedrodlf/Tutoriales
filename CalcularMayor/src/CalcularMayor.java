@@ -17,7 +17,7 @@ public class CalcularMayor {
 		int b = sc.nextInt();
 		System.out.println("intorduce otro numero");
 		int c = sc.nextInt();
-		
+		sc.close();
 		List<Integer> lista = new ArrayList<>();
 		
 		lista.add(a);
